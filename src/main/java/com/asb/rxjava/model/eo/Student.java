@@ -2,7 +2,6 @@ package com.asb.rxjava.model.eo;
 
 import lombok.Builder;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
