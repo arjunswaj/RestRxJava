@@ -27,6 +27,7 @@ repositories {
 
 
 dependencies {
+	compile 'io.reactivex:rxjava:1.0.10'
 	compile('org.springframework.boot:spring-boot-starter-jersey')
 	compile('org.projectlombok:lombok:1.16.6')
 	compile('org.springframework.boot:spring-boot-starter-web')
