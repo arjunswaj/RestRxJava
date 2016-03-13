@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0d14ed3-5977-4f8e-950f-3a102be4f101" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/asb/rxjava/controller/rest/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/asb/rxjava/controller/rest/StudentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/asb/rxjava/controller/service/StudentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/asb/rxjava/controller/service/StudentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RestRxJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1373,12 +1371,25 @@
       <updated>1457869427040</updated>
       <workItem from="1457869431058" duration="1150000" />
       <workItem from="1457872037461" duration="233000" />
-      <workItem from="1457872315753" duration="1529000" />
+      <workItem from="1457872315753" duration="1568000" />
     </task>
+    <task id="LOCAL-00001" summary="Workspace changes">
+      <created>1457873901563</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1457873901563</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding Students and Student by name API">
+      <created>1457873923848</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1457873923848</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4477000" />
+    <option name="totallyTimeSpent" value="4516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1425,6 +1436,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Workspace changes" />
+    <MESSAGE value="Adding Students and Student by name API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Students and Student by name API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
