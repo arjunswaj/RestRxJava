@@ -4,10 +4,13 @@ import com.asb.rxjava.model.eo.Student;
 import com.asb.utils.Sleeper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.scheduling.concurrent.ThreadPoolExecutorFactoryBean;
 import rx.Observable;
 import rx.Subscriber;
 import rx.schedulers.Schedulers;
 
+import javax.annotation.Resource;
+import javax.inject.Inject;
 import javax.inject.Named;
 import java.util.Arrays;
 import java.util.List;
@@ -22,7 +25,9 @@ import java.util.concurrent.Executors;
 @Named
 public class StudentService {
     private Logger LOGGER = LoggerFactory.getLogger(StudentService.class);
-    private final ExecutorService executorService = Executors.newFixedThreadPool(10);
+
+    @Inject
+    private ExecutorService executorService;
 
     private Random random = new Random();
     private List<String> NAMES = Arrays.asList("Arjun", "Aditya", "Saurab", "Gunjan", "Ashutosh", "Pooja", "Ahsan", "Madhu", "Azad", "Manju");
